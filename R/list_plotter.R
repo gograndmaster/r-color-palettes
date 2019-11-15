@@ -17,7 +17,6 @@ list_plotter <- function(color_list, names, package_name) {
          col = color_list[[i]], border = NA) 
   }
 }
-
 all_names <- function(package, type = NULL) {
   color_list_d <- character()
   color_list_c <- character()
